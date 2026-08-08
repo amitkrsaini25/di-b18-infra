@@ -32,14 +32,14 @@ jobs:
         run: |
           az login \
             --service-principal \
-            --username "9eac3105-2ec2-4f37-8b90-3d1d851fce11" \
-            --password "W4V8Q~NmAomNOfMjBrTUT.rcYDEUB8YgKRzAgduC" \
-            --tenant "0f7010fd-209e-4344-8457-043ffb37143b"
+            --username "07b67542-7b72-48a6-a3a4-c2311fa51f5b" \
+            --password "M7q8Q~8lRJO0~YPcfyxs5YNI6ZzY1opE6-GAGdi8" \
+            --tenant "3c7bd315-a86f-4b23-90b9-6318c8a94eea"
 
       - name: Set Azure Subscription
         run: |
           az account set \
-            --subscription "bc9d2c5e-f99f-4142-8f22-8f6dae37180d"
+            --subscription "0e2f2b6f-1f5f-4582-8c39-1dcfd3fd1f88"
 
       - name: Check Azure Login
         run: az account show
