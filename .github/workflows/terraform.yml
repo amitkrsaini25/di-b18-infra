@@ -32,9 +32,9 @@ jobs:
         run: |
           az login \
             --service-principal \
-            --username "9eac3105-2ec2-4f37-8b90-3d1d851fce11" \
-            --password "W4V8Q~NmAomNOfMjBrTUT.rcYDEUB8YgKRzAgduC" \
-            --tenant "0f7010fd-209e-4344-8457-043ffb37143b"
+            --username "07b67542-7b72-48a6-a3a4-c2311fa51f5b" \
+            --password "63b7d98a-8207-46ab-9aa2-4d5af188cfea" \
+            --tenant "3c7bd315-a86f-4b23-90b9-6318c8a94eea"
 
       - name: Set Azure Subscription
         run: |
