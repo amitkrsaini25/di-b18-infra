@@ -33,7 +33,7 @@ jobs:
           az login \
             --service-principal \
             --username "07b67542-7b72-48a6-a3a4-c2311fa51f5b" \
-            --password "9400694e-3a6c-4c74-a479-a3f7d16bf594" \
+            --password "Mk08Q~NDuaBwyD.34innpIbvj9lDRx0_Ix1cLcKU" \
             --tenant "3c7bd315-a86f-4b23-90b9-6318c8a94eea"
 
       - name: Set Azure Subscription
